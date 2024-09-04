@@ -1,0 +1,48 @@
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan en pantallas más pequeñas */
+  justify-content: center;
+}
+
+footer div {
+  margin-bottom: 20px;
+  margin-left: 10px; 
+  margin-right: 10px; 
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+.button-redes {
+  background-color: transparent;
+  color: #333;
+  padding: 8px 16px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 50px;
+  height: 50px;
+  margin: 0 6px; 
+}
+
+.button-redes:hover {
+  background-color: transparent;
+}
+
+.img-fb, .img-inst, .img-wtsp {
+  width: 50px; 
+  height: auto; 
+  margin-bottom: 10px; 
+}
+
+@media only screen and (max-width: 600px) {
+  footer div {
+    width: 100%; 
+  }
+}

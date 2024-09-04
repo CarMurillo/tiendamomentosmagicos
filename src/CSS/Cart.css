@@ -1,0 +1,146 @@
+
+
+.cart {
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #dbd9d9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+text-align: center;
+color: #333;
+}
+
+table {
+width: 100%;
+margin-top: 20px;
+border-collapse: collapse;
+}
+
+th, td {
+padding: 10px;
+text-align: left;
+border-bottom: 1px solid #e29f96;
+}
+
+th {
+background-color: #f2f2f2;
+}
+
+tfoot td {
+font-weight: bold;
+}
+
+.button-cart {
+background-color: transparent;
+color: #b05eb6;
+padding: 10px;
+border: 2px solid #b05eb6;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.button-cart:hover {
+background-color: #a14547;
+border: 2px solid #a14547;
+color: whitesmoke;
+}
+
+.button-compra {
+background-color: transparent; 
+color: #21b426;
+padding: 10px;
+border: 2px solid #21b426; 
+border-radius: 4px;
+cursor: pointer;
+}
+
+.button-compra:hover {
+background-color: #21b426;
+border-color: #21b426; 
+color: aliceblue;
+}
+
+.quantity-button{
+background: transparent;
+border: 1px solid #a14547;
+color: #a14547;
+}
+
+.quantity-button:hover{
+background-color: #a14547;
+color: aliceblue;
+}
+
+.modal {
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background-color: white;
+padding: 20px;
+border: 1px solid #ccc;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+max-width: 400px;
+width: 100%;
+text-align: center;
+overflow-y: auto;
+max-height: 80vh;
+}
+
+.modal h2 {
+margin-bottom: 20px;
+}
+
+.modal form {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.modal label {
+margin-bottom: 10px;
+}
+
+.modal input {
+padding: 8px;
+margin-bottom: 15px;
+width: 100%;
+box-sizing: border-box;
+}
+
+.button-compra {
+padding: 10px 20px;
+background-color: #4caf50;
+color: white;
+border: none;
+cursor: pointer;
+}
+
+.button-compra:hover {
+background-color: #45a049;
+}
+
+.modal button:disabled {
+background-color: #ccc;
+cursor: not-allowed;
+}
+
+.close-button {
+position: absolute;
+top: 10px;
+right: 10px;
+font-size: 18px;
+cursor: pointer;
+background: none;
+border: none;
+background: transparent;
+color: #525252;
+}
+
+.close-button:hover{
+color: #000000;
+}

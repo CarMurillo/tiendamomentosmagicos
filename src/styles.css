@@ -1,0 +1,173 @@
+body {
+  background: beige;
+  font-family: 'Arial', sans-serif;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: 
+    linear-gradient(to left, #e29f96, #eb98af, #e4abbd, #e29f96);
+  color: black;
+  flex-wrap: wrap; 
+  border-radius: 20px;
+}
+
+.logotipo img {
+  max-height: 80px;
+  margin-left: 10px; 
+}
+
+.nav > div {
+  margin-right: 10px; 
+}
+
+.search-container {
+  flex-grow: 1;
+  margin-right: 10px; 
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-radius: 10em;
+  width: 70%; 
+  margin-left: 10px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10em;
+  background-color: rgba(255, 255, 255, 0.7);
+  margin-left: 10px; 
+}
+
+.cart-container, .user-container {
+  margin-right: 10px; 
+}
+
+.user-container button {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .logotipo img {
+    max-height: 60px; 
+  }
+
+  .nav > div, .search-container, .cart-container, .user-container {
+    margin: 5px; 
+  }
+}
+
+.sidebar {
+  display: flex;
+  background: linear-gradient(to left, #e29f96, #e4abbd, #e29f96);;
+  border: 2px solid #e29f96;
+  padding: 5px;
+  width: 98%;
+  transition: 0.3s;
+  border-radius: 20px;
+  box-shadow: 0 0 10px #db8599;
+  margin: 2px;
+  align-items: center;
+  height: 80px;
+  position: relative;
+}
+.sidebar h2{
+ font-size: 30px;
+ padding: 10px;
+}
+.sidebar label{
+  display: absolute;
+  flex-direction: row;
+  font-size: 20px;
+  padding: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  align-items: center;
+  justify-content: center;
+  font-family:'Times New Roman';
+}
+
+@media (max-width: 1200px) {
+  .sidebar {
+    width: 40%;
+    left: 1%;
+    top: 400px;
+    height: 50%;
+  }
+
+  .sidebar.active {
+    left: 0;
+  }
+}
+
+.banner {
+  width: 99%;
+  max-width: 100%;
+  max-height: 400px;
+  margin: 20px;
+  overflow: hidden;
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+}
+
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+}
+
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.slick-slide {
+  display: none;
+  float: left;
+  width: 100%; 
+  min-height: 1px;
+}
+
+.slick-prev, .slick-next {
+  font-size: 24px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+a:link, a:visited, a:active {
+  text-decoration:none;
+  color: black;
+}
+
+.button-filter{
+  padding: 12px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin: 10px;
+  max-height: 50px;
+}
+.button-filter:hover{
+  background: #2980b9;
+}
