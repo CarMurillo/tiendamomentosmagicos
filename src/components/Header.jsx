@@ -78,6 +78,16 @@ const Header = ({ cartItemCount, handleSearch, handleCancelSearch }) => {
                     <i className="fas fa-user-plus user-icon"></i> Registrarse
                   </NavLink>
                 </button>
+                <button type="button">
+                  <NavLink to="/JuegoScratch" className="active-link">
+                     JuegoScratch
+                  </NavLink>
+                </button>
+                <button type="button">
+                  <NavLink to="/SobreNosotros" className="active-link">
+                     SobreNosotros
+                  </NavLink>
+                </button>
               </>
             )}
             {user && (

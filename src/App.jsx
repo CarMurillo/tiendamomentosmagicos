@@ -11,6 +11,8 @@ import ProductList from './components/ProductList';
 import Cart from './components/Cart';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Footer from './components/Footer';
+import JuegoScratch from './components/JuegoScratch';
+import SobreNosotros from './components/SobreNosotros';
 
 const App = () => {
   const [cartItems, setCartItems] = useState([]);
@@ -50,6 +52,9 @@ const App = () => {
         <Routes>
           <Route path="/Login" element={<Login />} />
           <Route path="/Registro" element={<Registro />} />
+          <Route path="/JuegoScratch" element={<JuegoScratch />} />
+          <Route path="/SobreNosotros" element={<SobreNosotros />} />
+          
           <Route
             path="/Cart"
             element={<Cart cartItems={cartItems} setCartItems={setCartItems} />}
