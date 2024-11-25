@@ -9,7 +9,7 @@ const JuegoScratch = () => {
       <h1 style={styles.title}>Juego de Scratch</h1>
       <div style={styles.iframeContainer}>
       <iframe src="https://scratch.mit.edu/projects/1097636900/embed" allowtransparency="true" 
-      width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+      width="730" height="603" frameborder="0" scrolling="no" allowfullscreen></iframe>
       </div>
     </div>
     <Footer />

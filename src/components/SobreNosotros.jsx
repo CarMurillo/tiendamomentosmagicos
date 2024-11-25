@@ -10,12 +10,12 @@ const SobreNosotros = () => {
       <section className="section">
         <h2>Conoce más sobre nosotros</h2>
         <div className="video-container">
-          <video width="100%" height="auto" controls>
-            <source src="/src/video/AvatarMultimedia.mp4" type="video/mp4" />
+          <video width="100%" height="auto" controls>s
+            <source src="/src/video/avatar2multimedia.mp4" type="video/mp4" />
             Tu navegador no soporta la etiqueta de video.
           </video>
           <p>
-          <a href="https://studio.d-id.com/share?id=c4983d1c3499aecd33da0f975718b42b&utm_source=copy" target="_blank" rel="noopener noreferrer">
+          <a href="https://youtube.com/shorts/hTxXRvdPLYA" target="_blank" rel="noopener noreferrer">
             Ver Tambien Aqui
           </a>
         </p>

@@ -84,6 +84,16 @@ const Header = ({ cartItemCount, handleSearch, handleCancelSearch }) => {
                   </NavLink>
                 </button>
                 <button type="button">
+                  <NavLink to="/Aplicacion" className="active-link">
+                     Aplicación
+                  </NavLink>
+                </button>
+                <button type="button">
+                  <NavLink to="/kahoot" className="active-link">
+                     Kahoot
+                  </NavLink>
+                </button>
+                <button type="button">
                   <NavLink to="/SobreNosotros" className="active-link">
                      SobreNosotros
                   </NavLink>

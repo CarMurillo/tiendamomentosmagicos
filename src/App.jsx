@@ -13,6 +13,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Footer from './components/Footer';
 import JuegoScratch from './components/JuegoScratch';
 import SobreNosotros from './components/SobreNosotros';
+import Kahoot from './components/Kahoot';
+import Appinventor from './components/Appinventor';
 
 const App = () => {
   const [cartItems, setCartItems] = useState([]);
@@ -52,7 +54,9 @@ const App = () => {
         <Routes>
           <Route path="/Login" element={<Login />} />
           <Route path="/Registro" element={<Registro />} />
+          <Route path="/Aplicacion" element={<Appinventor />} />
           <Route path="/JuegoScratch" element={<JuegoScratch />} />
+          <Route path="/kahoot" element={<Kahoot />} />
           <Route path="/SobreNosotros" element={<SobreNosotros />} />
           
           <Route
